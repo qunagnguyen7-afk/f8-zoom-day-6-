@@ -20,7 +20,7 @@ html {
     background-color: rgb(164, 171, 176);
     margin: auto;
     text-align: center;
-    padding: 40px;
+
 
 }
 .menu-main li{
@@ -168,7 +168,9 @@ html {
     line-height: 1.5;
 }
 
-ul { 
+.education ul,
+.experience ul,
+.work ul { 
     list-style-type: disc;
     padding-left: 10px;
 }
@@ -185,6 +187,92 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+/* CSS NEWWWWWWWWWWWWW PRICING */
+
+.main-pricing {
+    background-color: #8055553f;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 600px;
+}
+
+.main-pricing h1, h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title-spricing{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.all-service:hover {
+    transform: translateY(-10px);
+    opacity: 0.8;
+}
+
+.all-service{
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 30px;
+    flex-direction: column;
+    height: 400px;
+    width: 250px;
+    gap: 20px;
+    transition: 0.3s;
+}
+.pro-vip {
+    background-color: #eb7e09;
+}
+
+.name-service{
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 0 auto    ;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.information-pricing li {
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.information-pricing > li::before {
+    content: "\f14a";
+    font-family: "Font Awesome 7 Free";
+    padding-right: 5px;
+    font-weight: 900;
+    color: #05f1636d;
+}
+
+.btn-pricing-dk {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn-pricing-dk:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 

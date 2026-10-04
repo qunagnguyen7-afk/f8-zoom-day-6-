@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(93, 103, 100);
+}
+.menu-main {
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(164, 171, 176);
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+
+}
+.menu-main li{
+    background-color: rgb(187, 186, 206);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+.menu-main li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu-main li:hover {
+    background-color: #000;
+    color: aliceblue;
+    opacity: 0.6    ;
+}
+
+/* CSS CV-FLEX-BOX */
+
+.wapper {
+    display: flex;
+}
+
+.profile {
+    flex: 1;
+}
+
+.box-avt{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 46, 36);
+    color: aliceblue;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.avt{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(224, 214, 214);
+    border-radius: 50%;
+}
+
+.name-avt{
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.content-profile{
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(44, 39, 39);
+    gap: 20px;
+    padding-left: 10px;
+    color: rgb(195, 205, 213);
+}
+.content-profile h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-prf {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    
+}
+
+.contact-prf a {
+    text-decoration: none;
+    color: rgb(195, 205, 213);
+    
+    
+}
+.contact-prf a:hover{
+    color: #5d5858;
+}
+
+.pain-icon {
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: rgba(87, 87, 82, 0.784);
+}
+
+.target-prf,
+.skil-prf,
+.interest-prf,
+.certificate-prf {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5;
+}
+
+.progress-bass{
+    width: 80%;
+
+    background: color #e0e0e0;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    padding: 3px;
+
+}
+.progress-fill{
+    height: 10px;
+    width: 70%;
+    background-color: #5e90b9; 
+
+}
+
+
+.cv-profile{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.cv-profile h1  {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cv-profile h2 {
+     text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.education li,
+.experience li,
+.work li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+ul { 
+    list-style-type: disc;
+    padding-left: 10px;
+}
+
+.box-education {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.education,
+.experience,
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+

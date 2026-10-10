@@ -375,3 +375,116 @@ html {
     transform: translateY(-6px);
 
  }
+
+ /* CSSS REGISTER-LAYOUT */
+
+ .main-register {
+    display: flex;
+ }
+
+ .intro-register{
+    min-height:700px ;
+    display: flex;
+    flex: 1;
+    background-color: #5e90b9;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 56px;
+    color: #fff;
+ }
+
+ .name-web {
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ .content-intro {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-intro h1{
+    font-size: 2.1rem;
+    font-weight:bold ;
+ }
+ .content-intro p {
+    line-height: 1.6;
+    letter-spacing: 2px;
+    opacity: 0.5;
+
+ }
+ .italy-p-register {
+    opacity: 0.5;
+    letter-spacing: 2px;
+    font-size: small;
+    font-style: italic;
+ }
+
+
+ .form-register{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+    gap: 5px;
+ }
+ .form-register h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+ }
+
+  .form-register p {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+
+  }
+
+  .label-register{
+    font-size: 0.9rem;
+    font-weight: 600;
+
+  }
+ .input-register {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+ }
+
+ .row-register {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+ }
+ .row-register a {
+    text-decoration: none;
+    color: #2811da;
+    font-weight: 600;
+ }
+
+ .btn-register {
+    height: 48px;
+    background-color: #624fef;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 15px;
+ }
+ .sign-up-tk {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+ }
+ .sign-up-tk a {
+    color: #2811da;
+    text-decoration: none;
+
+ }
